@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Portfolio — Greysite.in</title>
+    <meta name="description"
+        content="Explore our portfolio of premium websites. Business sites, e-commerce stores, and creative portfolios built by Greysite.in.">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236b8afd'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold' font-size='18'%3EG%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="page-loader">
+        <div class="loader-spinner"></div>
+    </div>
+    <div class="scroll-progress"></div>
+
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape-cube shape-cube-1"></div>
+        <div class="shape-cube shape-cube-2"></div>
+        <div class="shape-ring shape-ring-1"></div>
+        <div class="shape-ring shape-ring-2"></div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Grey<span>site</span>.in</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="websites.html">Templates</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html" class="nav-cta">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-toggle" id="navToggle"><span></span><span></span><span></span></div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <p class="section-label fade-in">Our Portfolio</p>
+            <h1 class="fade-in">Projects We're<br>Proud Of</h1>
+            <p class="fade-in">Real websites we've built for real businesses. Browse by category to find your
+                inspiration.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="section">
+        <div class="container">
+
+            <!-- Filters -->
+            <div class="portfolio-filters fade-in">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+                <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+            </div>
+
+            <!-- Projects -->
+            <div class="portfolio-grid">
+
+                <div class="project-card fade-in" data-category="business"
+                    style="transition: opacity 0.3s ease, transform 0.3s ease;">
+                    <div class="card-image"
+                        style="background:linear-gradient(135deg,#1a1a2e,#16213e);display:flex;align-items:center;justify-content:center;font-size:3rem;">
+                        🏢</div>
+                    <div class="card-content">
+                        <span class="category-tag">Business</span>
+                        <h4>TechVenture Corp</h4>
+                        <p class="tech-stack">HTML • CSS • JavaScript • Node.js</p>
+                        <a href="#" class="btn btn-primary btn-sm">Live Demo →</a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="ecommerce"
+                    style="transition: opacity 0.3s ease, transform 0.3s ease;">
+                    <div class="card-image"
+                        style="background:linear-gradient(135deg,#0f3460,#533483);display:flex;align-items:center;justify-content:center;font-size:3rem;">
+                        🛍️</div>
+                    <div class="card-content">
+                        <span class="category-tag">E-Commerce</span>
+                        <h4>StyleHub Fashion</h4>
+                        <p class="tech-stack">React • Next.js • Stripe • MongoDB</p>
+                        <a href="#" class="btn btn-primary btn-sm">Live Demo →</a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="portfolio"
+                    style="transition: opacity 0.3s ease, transform 0.3s ease;">
+                    <div class="card-image"
+                        style="background:linear-gradient(135deg,#2d1b69,#11998e);display:flex;align-items:center;justify-content:center;font-size:3rem;">
+                        📸</div>
+                    <div class="card-content">
+                        <span class="category-tag">Portfolio</span>
+                        <h4>Artistry Studio</h4>
+                        <p class="tech-stack">HTML • CSS • JavaScript • GSAP</p>
+                        <a href="#" class="btn btn-primary btn-sm">Live Demo →</a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="business"
+                    style="transition: opacity 0.3s ease, transform 0.3s ease;">
+                    <div class="card-image"
+                        style="background:linear-gradient(135deg,#1f4037,#99f2c8);display:flex;align-items:center;justify-content:center;font-size:3rem;">
+                        🍽️</div>
+                    <div class="card-content">
+                        <span class="category-tag">Business</span>
+                        <h4>Savour Kitchen</h4>
+                        <p class="tech-stack">HTML • CSS • JavaScript • PHP</p>
+                        <a href="#" class="btn btn-primary btn-sm">Live Demo →</a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="ecommerce"
+                    style="transition: opacity 0.3s ease, transform 0.3s ease;">
+                    <div class="card-image"
+                        style="background:linear-gradient(135deg,#3c1053,#ad5389);display:flex;align-items:center;justify-content:center;font-size:3rem;">
+                        💐</div>
+                    <div class="card-content">
+                        <span class="category-tag">E-Commerce</span>
+                        <h4>Bloom & Petals</h4>
+                        <p class="tech-stack">Shopify • Liquid • CSS • JavaScript</p>
+                        <a href="#" class="btn btn-primary btn-sm">Live Demo →</a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="portfolio"
+                    style="transition: opacity 0.3s ease, transform 0.3s ease;">
+                    <div class="card-image"
+                        style="background:linear-gradient(135deg,#0c0c1d,#1a237e);display:flex;align-items:center;justify-content:center;font-size:3rem;">
+                        🎬</div>
+                    <div class="card-content">
+                        <span class="category-tag">Portfolio</span>
+                        <h4>CineFrame Productions</h4>
+                        <p class="tech-stack">React • Three.js • GSAP • Vercel</p>
+                        <a href="#" class="btn btn-primary btn-sm">Live Demo →</a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="business"
+                    style="transition: opacity 0.3s ease, transform 0.3s ease;">
+                    <div class="card-image"
+                        style="background:linear-gradient(135deg,#232526,#414345);display:flex;align-items:center;justify-content:center;font-size:3rem;">
+                        ⚖️</div>
+                    <div class="card-content">
+                        <span class="category-tag">Business</span>
+                        <h4>LegalEdge Associates</h4>
+                        <p class="tech-stack">WordPress • Custom Theme • SEO</p>
+                        <a href="#" class="btn btn-primary btn-sm">Live Demo →</a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="ecommerce"
+                    style="transition: opacity 0.3s ease, transform 0.3s ease;">
+                    <div class="card-image"
+                        style="background:linear-gradient(135deg,#200122,#6f0000);display:flex;align-items:center;justify-content:center;font-size:3rem;">
+                        ☕</div>
+                    <div class="card-content">
+                        <span class="category-tag">E-Commerce</span>
+                        <h4>BrewCraft Coffee</h4>
+                        <p class="tech-stack">WooCommerce • PHP • MySQL • CSS</p>
+                        <a href="#" class="btn btn-primary btn-sm">Live Demo →</a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="portfolio"
+                    style="transition: opacity 0.3s ease, transform 0.3s ease;">
+                    <div class="card-image"
+                        style="background:linear-gradient(135deg,#141e30,#243b55);display:flex;align-items:center;justify-content:center;font-size:3rem;">
+                        🏗️</div>
+                    <div class="card-content">
+                        <span class="category-tag">Portfolio</span>
+                        <h4>ArchVision Studios</h4>
+                        <p class="tech-stack">HTML • CSS • JavaScript • Lightbox</p>
+                        <a href="#" class="btn btn-primary btn-sm">Live Demo →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+        <div class="container">
+            <h2 class="fade-in">Like What You See?</h2>
+            <p class="fade-in">Let's create something equally stunning for your business.</p>
+            <div class="cta-buttons fade-in">
+                <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                <a href="pricing.html" class="btn btn-secondary">View Pricing</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">Grey<span>site</span>.in</a>
+                    <p>Built in Grey. Designed for Growth. We create premium websites that transform businesses.</p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+                        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-link" aria-label="GitHub">⌨</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Business Websites</a></li>
+                        <li><a href="services.html">E-Commerce</a></li>
+                        <li><a href="services.html">Portfolio Sites</a></li>
+                        <li><a href="services.html">SEO Optimization</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="websites.html">Templates</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="contact.html">Get in Touch</a></li>
+                        <li><a href="mailto:hello@greysite.in">hello@greysite.in</a></li>
+                        <li><a href="tel:+919999999999">+91 99999 99999</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Greysite.in — All Rights Reserved. Built with ❤️ in India.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/919999999999?text=Hi%20Greysite!%20I'm%20interested%20in%20getting%20a%20website."
+        class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
